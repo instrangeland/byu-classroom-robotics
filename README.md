@@ -10,7 +10,7 @@ Most of the files are not used in the actual robots! They are simply there as do
 
 The two you'll want to look at is main.py, for the main board and controller.py. Each board will also need to have ble_advertising.py copied to the board. The joystick will need joystick_channel.py as well. 
 
-The controller allows switching between tank drive & one joystick driving. The default is tank drive. 
+The controller allows switching between tank drive & one joystick driving. The default is tank drive. It displays an animation when switching on the controller. 
 
 Each controller must be assigned a number. Make sure to put a file called "dev_name" with the number on the flash as well. When the controller and the robot connect, they will both light up the controller number in binary on the included LEDs.
 
