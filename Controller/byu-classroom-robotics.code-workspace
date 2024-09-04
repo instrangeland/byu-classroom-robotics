@@ -2,11 +2,18 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"name": "Pico (W) Remote Workspace",
+			"uri": "pico:"
 		}
 	],
 	"settings": {
 		"python.analysis.typeshedPaths": [
-			"~/.micropico-stubs/micropython-esp32-stubs==1.23.0a87"
+			"~/.micropico-stubs/micropython-rp2-rpi_pico_w-stubs==1.23.0.post1"
+		],
+		"python.analysis.extraPaths": [
+			"~/.micropico-stubs/micropython-rp2-rpi_pico_w-stubs==1.23.0.post1"
 		]
 	}
 }

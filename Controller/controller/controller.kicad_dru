@@ -1,0 +1,2 @@
+(version 7)
+	(rule hole_to_hole (constraint hole_to_hole (min 12mil)))
